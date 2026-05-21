@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // ── CORS: allow your frontend domain (update before deploying) ──
-const ALLOWED_ORIGINS = [
+const ALLOWED_ORIGINS = [apex-proxy-production-3908.up.railway.app
   "http://localhost:3000",
   "http://localhost:5173",
   "https://your-app-domain.com", // ← replace with your real domain
