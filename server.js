@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 const ALLOWED_ORIGINS = [
   "http://localhost:3000",
   "http://localhost:5173",
-  "https://apex-proxy-production-3908.up.railway.app", // ← replace with your real domain
+  "https://apex-trader-alpha.vercel.app", // ← replace with your real domain
 ];
 
 app.use(cors({
